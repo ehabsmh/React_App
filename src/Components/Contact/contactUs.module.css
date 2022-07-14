@@ -1,0 +1,31 @@
+.lines::before {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 54%;
+  height: 4px;
+  width: 80px;
+  background-color: #000;
+}
+
+.lines::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  right: 54%;
+  height: 4px;
+  width: 80px;
+  background-color: #000;
+}
+
+.submitBtn {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+.submitBtn:hover {
+  background-color: #13a386;
+  border-color: #13a386;
+}
+#contact {
+  background-color: #000;
+}

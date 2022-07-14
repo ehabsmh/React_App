@@ -1,0 +1,29 @@
+.hero_bg {
+  background-color: rgb(51, 184, 161);
+  height: 98vh;
+}
+.custom_text {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.lines::before {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 38%;
+  height: 4px;
+  width: 9%;
+  background-color: white;
+}
+
+.lines::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  right: 38%;
+  height: 4px;
+  width: 9%;
+  background-color: white;
+}

@@ -1,0 +1,30 @@
+section {
+  background-color: #1abc9c;
+  color: white;
+  height: 86vh;
+}
+.lines::before {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 54%;
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
+
+.lines::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  right: 54%;
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
+
+.about_desc {
+  width: 350px;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
